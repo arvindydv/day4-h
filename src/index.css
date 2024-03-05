@@ -1,0 +1,27 @@
+body {
+  /* background-color: gainsboro; */
+  background: linear-gradient(rgb(8, 8, 59), rgb(6, 6, 48));
+}
+.container {
+  width: 80%;
+  margin: 4rem auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.color-container {
+  width: 22%;
+  box-shadow: 6px 7px 28px -6px gray;
+  padding-bottom: 10px;
+  margin-top: 20px;
+}
+.color {
+  height: 200px;
+  width: 100%;
+  /* background-color: black; */
+}
+.text {
+  margin: 0px 15px;
+  /* background-color: white; */
+  color: white;
+}
